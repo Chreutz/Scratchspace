@@ -11,7 +11,8 @@
   - Dual H bridge 
     - Current feedback
     - PWM directly driven by MCU
-      - 1000 Hz * 1024 PWM = 600+ kHz base frequency
+      - 10 bit PWM (1024 steps)
+      - 1000 Hz * 1024 PWM = 1+ MHz base frequency
 - DIY Optical/Magnetic hybrid encoder
   - 3D printed disc incorporating:
     - 10 position absolute optical encoder
