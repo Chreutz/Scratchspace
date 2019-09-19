@@ -17,6 +17,7 @@
   - 3D printed disc incorporating:
     - 10 position absolute optical encoder
     - 10 pairs of disc magnets for an AS5311 for absolute position in each optical inteval
+      - AS5311 has 96 us propagation delay -> ~180 rpm at 32 microsteps
 - MCU in wheel with high speed serial connection
   - Probably not slip ring in first version.
     - Coiled usb cable
